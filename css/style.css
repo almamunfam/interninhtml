@@ -1,0 +1,618 @@
+ @import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+ @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+            
+
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,span,a,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* all common css end */
+/* header menu section start  */
+
+
+.navbar-brand {
+	float: left;
+	height: 50px;
+	padding: 0px 15px !important;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.mamun {
+	background: rgb(17, 17, 17);
+	animation: mamun 1s;
+	height: 110px;
+}
+.navbar-nav > li {
+	float: left;
+	margin-top: 20px;
+}
+.header_social ul {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+}
+.header_social{
+    position: inherit;
+}
+
+.header_btn {
+	position: absolute;
+	top: 31%;
+	right: 14%;
+	width: 137px;
+	background: #57F287;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: arial;
+	border-radius: 60px;
+	padding: 15px 30px !important;
+	color: #000;
+}
+.header_btn:hover {
+	color: #000;
+}
+
+
+.navbar-nav li a {
+	color: #fff;
+	font-size: 18px;                                    
+	font-weight: 300;
+	margin-left: 30px;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+    position: relative;
+    line-height: 19.8px;
+}
+.navbar-expand-lg .navbar-nav {
+	flex-direction: row;
+	margin-left: 30px;
+}
+.navbar-nav li .active{
+    color: #57F287;
+}
+.navbar-nav li a::after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: #57F287;
+    
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.4s;
+	transform: scaleX(0);
+}
+.navbar-nav li .active::after{
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: #57F287;
+}
+.navbar-nav li a:hover::after{
+    visibility: visible;
+    opacity: 1;
+    transform:scaleX(1);
+}
+.navbar{
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    transition: 2s;
+}
+ .mamun{
+  background: rgb(17, 17, 17);
+ animation:  mamun 1s;
+
+}
+@keyframes mamun{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0px;
+    }
+} 
+
+
+.header_social ul {
+    padding-top: 30px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.header_social ul li {
+	width: 32px;
+	height: 32px;
+	background: #0e0d0d !important;
+	border-radius: 50%;
+	margin: 0 7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header_social ul li span {
+	color: #57f287 !important;
+	font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+	color: #57f287 !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+	color: #57f287 !important;
+}
+/* header menu section end */
+
+/* banner section start  */
+.slide_item .overlay_items{
+    background: linear-gradient(180deg, rgba(0, 13, 17, 0.158) 0%, rgba(0, 0, 0, 0) 100.00%), url(../new/banner1.png) no-repeat center;
+    padding-top: 180px;
+    padding-bottom: 420px;
+    background-size: cover;
+}
+.slide_item .overlay_items .banner_text {
+	text-align: center;
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+
+.slide_item .overlay_items .banner_text h1{
+    font-size: 65px;
+    line-height: 85px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    color:#57F287;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+
+
+}
+
+
+.slide_item .overlay_items .banner_text p{
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.slide_item .banner_s_image {
+	position: relative;
+}
+
+.slide_item .image1 {
+	position: absolute;
+	right: 85%;
+	top: 269px;
+}
+.slide_item .image2 {
+	position: absolute;
+	top: 115px;
+	right: 15%;
+}
+.slide_item .image3 {
+	position: absolute;
+	top: 0%;
+	left: -3%;
+}
+/* banner section end */
+/* Benefits section start */
+
+#Benefits{
+    padding-top: 160px;
+    padding-bottom: 130px;
+    background-color: #000000;
+}
+
+.benefits_title{
+    padding-bottom: 60px;
+}
+.benefits_title h2{
+font-weight: 500;
+font-size: 48px;
+line-height: 65px;
+color: #57F287;
+padding-bottom: 60px;
+}
+
+.image1_text p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    vertical-align: middle;
+    
+}
+
+.secondbox{
+    padding-top: 50px;
+}
+
+.image1_text {
+	height: 242px;
+	line-height: 242px;
+	display: flex;
+	align-items: center;
+}
+/* Benefits section end */
+
+/*slider section start  */
+
+
+#totalslidersection{
+    background-color: #000000;
+}
+
+.slider_img.slick-slide.slick-current.slick-active {
+	margin-left: -50px !important;
+}
+/*slider section end  */
+
+
+
+/*Roadmap section start  */
+.slider_mainnn.slick-initialized.slick-slider.slick-vertical {
+	padding: 50px 0;
+}
+
+.col-lg-8 {
+	padding: 0 !important;
+}
+#Roadmap{
+    padding-top: 238px;
+    padding-bottom:238px;
+    background-color: #000;
+}
+#Roadmap .service_text {
+	padding-left: 0 !important;
+	position: relative;
+	transition: 0.4s;
+}
+#Roadmap .service_text p {
+	font-family: 'Neue Haas Grotesk Display Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+.roadmap_title h2{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+    color: #57F287;
+    padding-bottom: 55px;
+    }
+    #Roadmap .service_imggg {
+        width: 10px;
+        height: 10px;
+        background: #57F287;
+        border-radius: 50%;
+        display: block;
+        transition: 0.4s;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+
+
+.slider_main_itmes {
+	padding-bottom: 30px;
+    
+}
+
+#Roadmap .service_heading h3{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: right;
+    color: #57F287;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    text-transform: uppercase;
+}
+
+#Roadmap .service_text p{
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;  
+    color: #FFFFFF;
+}
+
+
+
+
+#Roadmap .slider_items_ser{
+ margin-bottom: 30px;
+}
+
+#Roadmap .slider_mainnn{
+
+    position: relative;
+    z-index: 1;
+
+}
+
+
+#Roadmap .slider_mainnn::after {
+	position: absolute;
+	top: 0;
+	right: 75%;
+	transform: translateX(-50%);
+	content: "";
+	width: 0;
+	height: 100%;
+	border: 1px dashed #57F287;
+	z-index: -1;
+}
+.col-lg-1 {
+	padding: 0 !important;
+}
+
+/*Roadmap section end  */
+
+
+/* team section start  */
+#Team{
+
+    background-color: #000000;
+    padding-bottom: 145px;
+
+}
+
+#Team .teamsection_title{
+    text-align: center;
+}
+#Team .teamsection_title h2{
+
+font-weight: 500;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+color: #57F287;
+}
+
+
+.slick-initialized .slick-slide {
+	display: block;
+	margin: 15px !important;
+}
+
+.owl_title h3{
+text-align: center;
+color: #fff;
+padding-top: 15px;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+color: #57F287;
+}
+
+.owl_prof p{
+    padding-top: 7px;
+    text-align: center;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+
+}
+
+.owl_social{
+    text-align: center;
+    
+}
+.owl_social ul {
+	padding-left: 0px !important;
+}
+.owl_social ul li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+}
+.owl_social ul li a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #57F287;
+    color: #000000;
+    margin: 0 7px;
+    transition: .3s;
+
+}
+.owl_social ul a:hover  {
+	color: #57f287;
+	background: #000;
+}
+/* team section end */
+ /* FAQ section start  */
+
+
+
+ #FAQ{
+    background-color: #000000;
+    padding-bottom: 210px;
+ }
+ #FAQ .heading_title{
+
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: #57F287;
+    
+ }
+
+ .mainfaqsection {
+    border: none !important;
+ }
+ .mainfaqsection .panel-heading{
+    background-color: #000000 !important;
+ }
+.faq_description{
+    padding: 0px !important;
+}
+.faq_description p{
+    padding: 15px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.ttilefaq {
+	text-align: left;
+	display: inline-block;
+	width: 95%;
+}
+
+.btn.btn-link {
+	color: #fff !important;
+	font-size: 32px;
+	line-height: 48px;
+    transition: .4s;
+}
+
+.btn.btn-link:hover:active:focus {
+	color: #57F287 !important;
+}
+
+.btn-link, .btn-link:active, .btn-link:focus, .btn-link:hover {
+	border-color: transparent;
+	display: block;
+	width: 100%;
+	color: #57F287 !important;
+}
+
+.btn.btn-link.collapsed {
+	display: block;
+	width: 100%;
+}
+
+.btn-link, .btn-link:active, .btn-link:focus, .btn-link:hover {
+	border-color: transparent;
+	display: block;
+	width: 100%;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+	border-top: 0 !important;
+}
+
+.faq_description p {
+	font-family: 'Neue Haas Grotesk Display Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+	padding-right: 41px;
+}
+ /* FAQ section end */
+
+/* footerbtm section start  */
+
+#footersection{
+    padding-bottom:85px;
+    background-color: #000000;
+}
+
+#footersection ul {
+	padding-left: 0;
+}
+#footersection ul li a {
+
+	font-size: 18px;
+	color: #fff;
+	line-height: 26px;
+}
+#footersection ul li a:hover {
+	color: #57F287;
+}
+
+
+#footersection .footer_social {
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#footersection .footer_social ul {
+	display: flex;
+}
+#footersection .footer_social ul li a {
+	width: 60px;
+	height: 60px;
+	display: inline-flex;
+	background: #57f287;
+	margin: 0 15px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px !important;
+	color: #000 !important;
+	border-radius: 50%;
+    transition: .3s;
+}
+#footersection .footer_social ul li a:hover {
+
+	color: #57f287 !important;
+    margin-top: -5px;
+    background: #000;
+
+}
+/* footerbtm section end */
+/* footercopyright section start */
+#footer_btm{
+    padding: 35px 0;
+    background-color: #57F287;
+}
+#footer_btm .footer_title h2{
+    text-align: center;
+    line-height: 35px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+/* footercopyright section end */
+

@@ -1,0 +1,464 @@
+/* Benefits section responsive start  */
+
+@media (max-width: 575.98px) { 
+
+
+/* header menu start  */
+
+#homesection .container {
+	padding: 0 !important;
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+	margin: 0 !important;
+}
+#homesection .navbar-nav{
+	width: 100% !important;
+}
+#navbarId {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.mamun {
+	background: rgb(17, 17, 17);
+	animation: mamun 1s;
+	height: 100px;
+}
+.nav-link:focus, .nav-link:hover {
+	color: #57f287 !important;
+	display: inline-block;
+}
+.navbar-nav.ml-auto {
+	background: #000;
+	width: 100%;
+	text-align: center;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.navbar-brand {
+	position: absolute;
+	top: 0;
+	left: auto;
+}
+
+.navbar-toggler.barsetion {
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	background: transparent;
+	color: #45C06B;
+	font-size: 32px;
+}
+.navbar-toggler.barsetion:focus {
+	outline: none !important;
+	border: none;
+	box-shadow: none;
+}
+.navbar-nav.ml-auto {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 72px;
+}
+
+.header_btn {
+	display: none;
+}
+.header_social {
+	display: none;
+}
+.navbar-brand {
+	position: absolute;
+	top: 14px !important;
+	left: auto;
+}
+/* header menu end */
+/* banner section start */
+
+.slide_item .overlay_items .banner_text h1 {
+	font-size: 22px;
+	line-height: 28px;
+	padding-bottom: 30px;
+	font-weight: 400;
+	color: #57F287;
+	font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
+
+.slide_item .overlay_items .banner_text h1 {
+	text-align: center;
+	max-width: 210px;
+	margin: 0 auto;
+}
+.slide_item .overlay_items .banner_text p {
+	font-family: 'Neue Haas Grotesk Display Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0 57px;
+}
+
+.slide_item .overlay_items {
+	padding-top: 130px;
+	padding-bottom: 186px;
+	background-size: cover;
+
+}
+.slide_item .image2 {
+	position: absolute;
+	left: 302px;
+	top: 42px;
+}
+.slide_item .image3 {
+	display: none;
+}
+.slide_item .image2 img{
+	width: 112px;
+    height: 102px;
+}
+.slide_item .image1 {
+	position: absolute;
+	right: 40%;
+	top: -1px;
+}
+.slide_item .image1 img {
+	width: 88px;
+	height: 67px;
+}
+/* banner section end */
+
+    .benefits_title {
+         padding-bottom: 0px !important;
+    }
+    .benefits_title h2 {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        color: #57F287;
+        padding-bottom: 30px;
+    }
+    #Benefits {
+        padding-top: 98px;
+        padding-bottom: 0 !important;
+        text-align: center;
+    }
+    #Benefits .image1 {
+        text-align: center;
+        padding-bottom: 75px;
+    }
+    
+    #Benefits .image1_text p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-left: 30px;
+            vertical-align: middle;
+        }
+    
+        #Benefits .image2 {
+            text-align: center;
+            padding-top: 30px;
+        }
+        .image1_text p {
+            text-align: center;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: #FFFFFF;
+            padding: 0 20px;
+        }
+    
+        .image1_text {
+            height: 100px;
+            line-height: 242px;
+            display: flex;
+            align-items: center;
+            padding-right: 0 !important;
+        }
+        .service_imggg {
+            position: relative;
+            top: -176%;
+            left: 4% !important;
+        }
+
+        .secondbox {
+            padding-top: 0 !important;
+        }
+        .image1_text p {
+        margin: 0 auto;
+        }
+        #Benefits .image1 {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+/* Benefits section responsive end */
+/* Roadmap section responsive start  */
+       
+
+        #Roadmap .slider_mainnn::after {
+            position: absolute;
+            top: 0;
+            right: 92%;
+            transform: translateX(-50%);
+            content: "";
+            width: 0;
+            height: 96%;
+            border: 1px dashed #ffffff;
+            z-index: -1;
+        }
+        
+        
+        #Roadmap .service_text {
+            padding-left: 53px !important;
+            position: relative;
+            transition: 0.4s;
+        }
+        .service_heading h3 {
+            text-align: left !important;
+            padding-left: 30px;
+            margin-top: 35px;
+        }
+        #Roadmap .service_imggg {
+            width: 10px;
+            height: 10px;
+            background: rgb(255, 255, 255);
+            border-radius: 50%;
+            display: block;
+            transition: 0.4s;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+        
+        .service_imggg {
+            position: relative;
+            top: -176%;
+            left: 6%;
+        }
+
+        #Roadmap .service_heading h3 {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            text-align: right;
+            color: #57F287;
+            font-family: 'Neue Haas Grotesk Display Pro';
+            text-transform: uppercase;
+        }
+        #Roadmap .service_text p {
+            font-family: 'Neue Haas Grotesk Display Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+        .roadmap_title h2 {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            color: #57F287;
+            padding-bottom: 55px;
+            text-align: center;
+        }
+
+        #Team {
+            background-color: #000000;
+            padding-bottom: 60px;
+        }
+        #Team .teamsection_title h2 {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            text-align: center;
+            color: #57F287;
+        }
+        #Roadmap .service_imggg {
+            width: 10px;
+            height: 10px;
+            background: #57F287;
+            border-radius: 50%;
+            display: block;
+            transition: 0.4s;
+            text-align: center;
+            margin-top: 0 !important;
+            margin-left: 5px;
+        }
+        #Roadmap .slider_mainnn::after {
+            position: absolute;
+            top: 0;
+            right: 92%;
+            transform: translateX(-50%);
+            content: "";
+            width: 0;
+            height: 96%;
+            border: 1px dashed #57F287;
+            z-index: -1;
+        }
+        #Roadmap {
+          
+            padding: 60px 0;
+            background-color: #000;
+        }
+
+        .roadmap_img {
+            display: none !important;
+        }
+
+        .owl_title h3 {
+            text-align: center;
+            padding-top: 15px;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            color: #57F287;
+        }
+        .owl_prof p {
+            padding-top: 7px;
+            text-align: center;
+            font-family: 'Neue Haas Grotesk Display Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            padding-bottom: 16px;
+        }
+
+       
+button:focus:not(:focus-visible) {
+	outline: 0;
+	color: #57f287 !important;
+}
+.btn-link, .btn-link:active, .btn-link:focus, .btn-link:hover {
+	border-color: transparent;
+	display: block;
+	width: 100%;
+	color: #57F287 !important;
+}
+
+.btn.btn-link.collapsed {
+	display: block;
+	width: 100%;
+}
+ /* Roadmap section responsive end  */
+
+ .slider_img.slick-slide.slick-current.slick-active {
+	margin-left:0 !important;
+}
+
+/* FAQ section responsive start  */
+#FAQ {
+	background-color: #000000;
+	padding-bottom: 75px;
+}
+
+#FAQ .heading_title {
+	padding-bottom: 20px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #57F287;
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+.btn.btn-link {
+	color: #fff !important;
+	font-size: 18px;
+	line-height: 24px;
+	transition: .4s;
+}
+
+#FAQ .col-lg-10.m-auto {
+	padding: 0 !important;
+}
+
+.btn.btn-link.collapsed {
+	padding: 0 10px !important;
+}
+
+.faq_description p {
+	font-family: 'Neue Haas Grotesk Display Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	padding-right: 40px;
+}
+/* FAQ section responsive end */
+
+ /* Benefits section responsive start  */
+/* Benefits section responsive end */
+
+/* footer section responsive start  */
+.footer_brand_img{
+    width: 200px;
+    margin: 0 auto;
+}
+.footer_brand_img img {
+	width: 200px;
+}
+
+.col-lg-2.col-sm-6.m-auto {
+	width: 45% !important;
+	margin-top: 30px !important;
+}
+.col-lg-2.col-sm-6.m-auto ul:first-child {
+        padding-left: 34px !important;
+}
+
+
+#footersection .footer_social ul li a {
+	width: 48px;
+	height: 48px;
+	display: inline-flex;
+	background: #57f287;
+	margin: 0 8px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px !important;
+	color: #000 !important;
+	border-radius: 50%;
+	transition: .3s;
+}
+
+#footersection .footer_social {
+	height: 0px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+#footersection {
+	padding-bottom: 0 !important;
+	background-color: #000000;
+}
+
+
+#footer_btm .footer_title h2 {
+	text-align: center;
+	line-height: 17px;
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	padding: 0px 83px;
+}
+
+#footer_btm {
+	padding: 17px 0;
+	background-color: #57F287;
+}
+/* footer section responsive end */
+}
+
+
+
+
+
+
+
+.slider_mainnn.slick-initialized.slick-slider.slick-vertical {
+	/* padding: 50px 0; */
+}
